@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INK. | Our Brand</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #02040A; color: #FAFAFA; }
+        .text-crimson { color: #DC2626; }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col">
+
+    <header class="w-full p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <a href="index.html">
+            <svg height="40" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">
+                <text x="0" y="300" font-family="Inter, sans-serif" font-weight="900" font-size="350" fill="#FAFAFA" letter-spacing="-10">INK</text>
+                <circle cx="730" cy="285" r="40" fill="#DC2626" />
+            </svg>
+        </a>
+        <nav class="flex gap-6 text-sm font-medium">
+            <a href="index.html" class="text-gray-400 hover:text-white transition">Home</a>
+            <a href="branding.html" class="text-white">Branding</a>
+        </nav>
+    </header>
+
+    <main class="flex-grow max-w-4xl mx-auto px-6 py-20">
+        <h1 class="text-4xl md:text-5xl font-black mb-8">The <span class="text-crimson">Ink</span> Identity</h1>
+        
+        <p class="text-gray-400 text-lg mb-12">
+            Ink is designed to be bold, minimal, and confident. Our brand is built on a strict black and white palette, punctuated by a single, striking crimson dot. We don't do distractions.
+        </p>
+
+        <!-- Colors Section -->
+        <div class="mb-16">
+            <h2 class="text-2xl font-bold mb-6 border-b border-gray-800 pb-2">Colors</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-[#02040A] border border-gray-700 p-6 rounded-xl">
+                    <div class="w-10 h-10 rounded-full bg-[#02040A] border border-gray-600 mb-4"></div>
+                    <h3 class="font-bold">Obsidian</h3>
+                    <p class="text-gray-500 text-sm">#02040A</p>
+                </div>
+                <div class="bg-[#FAFAFA] p-6 rounded-xl text-black">
+                    <div class="w-10 h-10 rounded-full bg-[#FAFAFA] border border-gray-300 mb-4"></div>
+                    <h3 class="font-bold">Chalk</h3>
+                    <p class="text-gray-600 text-sm">#FAFAFA</p>
+                </div>
+                <div class="bg-[#DC2626] p-6 rounded-xl text-white">
+                    <div class="w-10 h-10 rounded-full bg-[#DC2626] mb-4"></div>
+                    <h3 class="font-bold">Crimson</h3>
+                    <p class="text-red-200 text-sm">#DC2626</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Typography Section -->
+        <div class="mb-16">
+            <h2 class="text-2xl font-bold mb-6 border-b border-gray-800 pb-2">Typography</h2>
+            <p class="text-gray-400 mb-4">We use <strong>Inter</strong> across the entire platform. It is modern, highly legible, and looks incredible on mobile screens.</p>
+            <div class="space-y-4">
+                <h3 class="text-4xl font-black">Heading 1 (Black 900)</h3>
+                <h4 class="text-2xl font-bold">Heading 2 (Bold 700)</h4>
+                <p class="text-lg text-gray-300">Body (Regular 400)</p>
+            </div>
+        </div>
+
+        <!-- Rules Section -->
+        <div>
+            <h2 class="text-2xl font-bold mb-6 border-b border-gray-800 pb-2">Brand Rules</h2>
+            <ul class="list-disc list-inside text-gray-400 space-y-3 ml-4">
+                <li>Never use the logo without the crimson dot.</li>
+                <li>Do not place the logo on cluttered or complex backgrounds.</li>
+                <li>Always ensure the logo maintains its aspect ratio.</li>
+                <li>The app uses automatic Dark and Light mode; respect the system theme.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="w-full py-8 text-center text-gray-600 text-sm border-t border-gray-900">
+        <p>&copy; 2026 InkSocial. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
